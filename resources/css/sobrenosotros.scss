@@ -1,0 +1,79 @@
+@import url("menu.css");
+
+.quienessomos {
+    background-color: #94a494;
+    padding: 2em;
+    margin-top: 3em;
+    border-radius: 25px 10px;
+    h2 {
+        font-family: 'Poppins';
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 2px 2px 3px #605f5f;
+        font-size: 1.7em;
+    }
+    p {
+        font-family: 'Poppins';
+        text-align: center;     
+    }
+}
+
+.imagenes {
+    background-color: #959c95;
+    h2 {
+        background-color: gray;
+        font-family: 'Poppins';
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 4em;
+        text-transform: uppercase;
+        padding: .3em;
+    }
+
+    .lorenzo, .andrea {
+        margin-top: .8em;
+        position: relative;
+        text-align: center;
+        color: rgb(57, 60, 57);
+        padding-bottom: 2em;
+        &:hover {
+            .foto {
+                opacity: .6;
+            }
+            .texto {
+                opacity: 1;
+            }
+        }
+        .texto {
+            position: absolute;
+            font-family: 'Poppins';
+            font-weight: bold;
+            font-size: 1.5em;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+        }
+    }
+    
+}
+
+.contacto{
+    position: relative;
+    margin-top: 10em;
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 1em;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: .3em;
+    }
+    .instagram {
+        text-decoration: none;
+        margin: .5em 0 0 3.5em;
+    }
+    .twitter {
+        text-decoration: none;
+        margin: .5em 3.5em 0 0;
+    }
+}

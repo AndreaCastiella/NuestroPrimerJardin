@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sobre Nosotros</title>
+        <link rel="stylesheet" href="resources/css/sobrenosotros.css">
+        <link rel="shortcut icon" href="resources/images/index/plant.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="container">
+                    <a class="logo" href="index.html">Nuestro<span>Jardín</span></a>
+                    <img id="mobile-cta" class="mobile-menu" src="resources/images/index/menu.svg" alt="Abrir Menú">
+                    <nav>
+                        <img id="mobile-exit" class="mobile-menu-exit" src="resources/images/index/close.svg" alt="Cerrar Menú">
+                        <ul class="primary-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="flores.html">Flores</a></li>
+                            <li><a href="hierbas&plantasaromaticas.html">Hierbas y Plantas aromáticas</a></li>
+                            <li><a href="frutas&hortalizas.html">Frutas y Hortalizas</a></li>
+                            <li><a href="cactus.html">Cactus</a></li>
+                            <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="presentacion">
+                <div class="container">
+                    <div class="quienessomos">
+                        <h2>¿Quiénes somos?</h2>
+                        <p>Como esto lo está haciendo Andrea y probablemente solo lo vea Lorenzo, <br> no creo que necesitemos presentación.</p>
+                        <p>En caso de que no seas ninguno de nosotros dos, bienvenid@ (¿o bienvenide?). Esta página la estoy haciendo yo, Andrea, para aprender html y css. <br>
+                        He decidido hacer esta página simple porque a Lorenzo le dio un día por plantar. <br>Y aquí estamos.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="imagenes">
+                <div class="container">
+                    <h2>Estos somos nosotros</h2>
+                    <div class="lorenzo">
+                        <img class="foto" src="resources/images/sobre_nosotros/lorenzo.jpg" alt="Lorenzo" style="height: 500px">
+                        <div class="texto">Lorenzo</div>
+                    </div>
+                    <div class="andrea">
+                        <img class="foto" src="resources/images/sobre_nosotros/yo.jpg" alt="Andrea" style="height: 500px">
+                        <div class="texto">Andrea</div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacto">
+                <div class="container">
+                    <a class="instagram" href="https://www.instagram.com/andrea_castiella/?hl=es"><img src="resources/images/sobre_nosotros/intagram.svg" alt="Instagram" style="width: 40px;"></a>
+                    <a class="twitter" href="https://twitter.com/AndreaCastiella"><img src="resources/images/sobre_nosotros/twitter.svg" alt="Twitter" style="width: 40px;"></a>
+                </div>
+            </section>
+            <script>
+                const mobileBtn = document.getElementById('mobile-cta')
+                    nav = document.querySelector('nav')
+                    mobileBtnExit = document.getElementById('mobile-exit');
+                
+                mobileBtn.addEventListener('click', () => {
+                    nav.classList.add('menu-btn');
+                })
+
+                mobileBtnExit.addEventListener('click', () => {
+                    nav.classList.remove('menu-btn')
+                })
+            </script>
+        </main>
+    </body>
+</html>

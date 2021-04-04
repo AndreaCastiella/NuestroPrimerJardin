@@ -1,0 +1,18 @@
+@import url("menu.css");
+@import url("flores.css");
+.collapsible {
+  width: 8em;
+}
+
+.echeverialilacina .video h2 {
+  text-shadow: 1px 1px 3px #6aab32;
+  background-color: rgba(52, 255, 69, 0.3);
+  color: #6aab32;
+}
+
+.mammillariaspinosissima .video h2 {
+  text-shadow: 1px 1px 3px #6aab32;
+  background-color: rgba(52, 255, 69, 0.3);
+  color: #6aab32;
+}
+/*# sourceMappingURL=cactus.css.map */

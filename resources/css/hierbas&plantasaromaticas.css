@@ -1,0 +1,30 @@
+@import url("menu.css");
+@import url("flores.css");
+.collapsible {
+  height: 4.1em;
+}
+
+.manzanilla .video h2 {
+  text-shadow: 1px 1px 3px #aba532;
+  background-color: rgba(238, 255, 52, 0.3);
+  color: #aba532;
+}
+
+.poleomenta .video h2 {
+  text-shadow: 1px 1px 3px #9132ab;
+  background-color: rgba(187, 52, 255, 0.3);
+  color: #9132ab;
+}
+
+.mentachocolate .video h2 {
+  text-shadow: 1px 1px 3px #6aab32;
+  background-color: rgba(32, 162, 43, 0.3);
+  color: #32ab87;
+}
+
+.perejil .video h2 {
+  text-shadow: 1px 1px 3px #3ac11f;
+  background-color: rgba(18, 253, 57, 0.3);
+  color: #3ac11f;
+}
+/*# sourceMappingURL=hierbas&plantasaromaticas.css.map */

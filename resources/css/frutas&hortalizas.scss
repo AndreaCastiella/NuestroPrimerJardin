@@ -1,0 +1,46 @@
+@import url("menu.css");
+@import url("flores.css");
+
+.collapsible {
+    height: 3em;
+}
+
+.lechuga {
+      .video h2 {
+          text-shadow: 1px 1px 3px rgb(106, 171, 50);
+          background-color: rgba(52, 255, 69, 0.3);
+          color: rgb(106, 171, 50);
+      }
+  }
+
+.pimiento {
+    .video h2 {
+        text-shadow: 1px 1px 3px rgb(131, 171, 50);
+        background-color: rgba(255, 160, 52, 0.3);
+        color: rgb(131, 171, 50);
+    }
+}
+
+.cayena {
+    .video h2 {
+        text-shadow: 1px 1px 3px rgb(171, 80, 50);
+        background-color: rgba(255, 184, 52, 0.3);
+        color: rgb(171, 80, 50);
+    }
+}
+
+.frambuesa {
+    .video h2 {
+        text-shadow: 1px 1px 3px rgb(155, 50, 171);
+        background-color: rgba(255, 52, 197, 0.3);
+        color: rgb(171, 50, 100);
+    }
+}
+
+.fresa {
+    .video h2 {
+        text-shadow: 1px 1px 3px rgb(171, 50, 70);
+        background-color: rgba(255, 52, 69, 0.3);
+        color: rgb(171, 50, 70);
+    }
+}
