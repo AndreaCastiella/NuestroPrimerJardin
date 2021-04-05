@@ -1,0 +1,14 @@
+{
+    "name": "NuestroJard\u00edn",
+    "short_name": "NuestroJard\u00edn",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#85c299",
+    "background_color": "#85c299",
+    "display": "standalone"
+}
