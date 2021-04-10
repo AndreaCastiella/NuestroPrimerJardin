@@ -190,7 +190,7 @@
 
 .clavel .background {
   margin-top: 3em;
-  background-image: url(/resources/images/flores/clavel-bg.jpg);
+  background-image: url(../../resources/images/flores/clavel-bg.jpg);
   background-size: cover;
 }
 
@@ -206,7 +206,7 @@
 
 .petunia .background {
   margin-top: 3em;
-  background-image: url(/resources/images/flores/petunia-bg.jpg);
+  background-image: url(../../resources/images/flores/petunia-bg.jpg);
   background-size: cover;
 }
 
@@ -222,7 +222,7 @@
 
 .girasol .background {
   margin-top: 3em;
-  background-image: url(/resources/images/flores/girasoles-bg.jpg);
+  background-image: url(../../resources/images/flores/girasoles-bg.jpg);
   background-size: cover;
 }
 
@@ -238,7 +238,7 @@
 
 .lavanda .background {
   margin-top: 3em;
-  background-image: url(/resources/images/flores/lavanda-bg.jpeg);
+  background-image: url(../../resources/images/flores/lavanda-bg.jpeg);
   background-size: cover;
 }
 /*# sourceMappingURL=flores.css.map */

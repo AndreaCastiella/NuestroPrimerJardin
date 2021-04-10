@@ -12,7 +12,7 @@
 
 .lechuga .background {
   margin-top: 3em;
-  background-image: url(/resources/images/frutas_hortalizas/Lechuga-bg.jpg);
+  background-image: url(../../resources/images/frutas_hortalizas/Lechuga-bg.jpg);
   background-size: cover;
 }
 
@@ -24,7 +24,7 @@
 
 .pimiento .background {
   margin-top: 3em;
-  background-image: url(/resources/images/frutas_hortalizas/pimientos-bg.jpg);
+  background-image: url(../../resources/images/frutas_hortalizas/pimientos-bg.jpg);
   background-size: cover;
 }
 
@@ -36,7 +36,7 @@
 
 .cayena .background {
   margin-top: 3em;
-  background-image: url(/resources/images/frutas_hortalizas/cayena-bg.png);
+  background-image: url(../../resources/images/frutas_hortalizas/cayena-bg.png);
   background-size: cover;
 }
 
@@ -48,7 +48,7 @@
 
 .frambuesa .background {
   margin-top: 3em;
-  background-image: url(/resources/images/frutas_hortalizas/frambuesa-bg.jpg);
+  background-image: url(../../resources/images/frutas_hortalizas/frambuesa-bg.jpg);
   background-size: cover;
 }
 
@@ -60,7 +60,7 @@
 
 .fresa .background {
   margin-top: 3em;
-  background-image: url(/resources/images/frutas_hortalizas/fresas-bg.jpg);
+  background-image: url(../../resources/images/frutas_hortalizas/fresas-bg.jpg);
   background-size: cover;
 }
 /*# sourceMappingURL=frutas&hortalizas.css.map */
