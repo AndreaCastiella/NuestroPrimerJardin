@@ -1,14 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url("menu.css");
 .principal {
   font-family: 'Poppins';
   color: #ddead1;
   margin-top: 2em;
+}
+
+.principal .intro {
   background-color: #6d7e69;
   padding: 5em 2em;
   border-radius: 1em;
   text-align: center;
   height: 5.5em;
+}
+
+.principal .intro2 {
+  font-family: 'Dancing Script';
+  margin-top: 2em;
+  margin-bottom: -1em;
+  text-align: center;
+  height: 5.5em;
+  color: #374131;
+  -webkit-text-decoration: underline overline wavy rgba(114, 142, 114, 0.7) 1.5px;
+          text-decoration: underline overline wavy rgba(114, 142, 114, 0.7) 1.5px;
+  font-size: 1.5em;
+  text-underline-position: under;
+  line-height: 1.4em;
 }
 
 .principal hr.line {
@@ -97,7 +115,7 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 3em;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

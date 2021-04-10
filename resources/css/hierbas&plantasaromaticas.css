@@ -10,10 +10,22 @@
   color: #aba532;
 }
 
+.manzanilla .background {
+  margin-top: 3em;
+  background-image: url(/resources/images/hierbas_aromaticas/manzanilla-bg.jpg);
+  background-size: cover;
+}
+
 .poleomenta .video h2 {
   text-shadow: 1px 1px 3px #9132ab;
   background-color: rgba(187, 52, 255, 0.3);
   color: #9132ab;
+}
+
+.poleomenta .background {
+  margin-top: 3em;
+  background-image: url(/resources/images/hierbas_aromaticas/mentapoleo-bg.jpg);
+  background-size: cover;
 }
 
 .mentachocolate .video h2 {
@@ -22,9 +34,21 @@
   color: #32ab87;
 }
 
+.mentachocolate .background {
+  margin-top: 3em;
+  background-image: url(/resources/images/hierbas_aromaticas/mentachoco-bg.jpg);
+  background-size: cover;
+}
+
 .perejil .video h2 {
   text-shadow: 1px 1px 3px #3ac11f;
   background-color: rgba(18, 253, 57, 0.3);
   color: #3ac11f;
+}
+
+.perejil .background {
+  margin-top: 3em;
+  background-image: url(/resources/images/hierbas_aromaticas/perejil-bg.jpg);
+  background-size: cover;
 }
 /*# sourceMappingURL=hierbas&plantasaromaticas.css.map */

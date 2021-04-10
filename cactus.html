@@ -21,7 +21,7 @@
                     <a class="logo" href="index.html">Nuestro<span>Jardín</span></a>
                     <img id="mobile-cta" class="mobile-menu" src="resources/images/index/menu.svg" alt="Abrir Menú">
                     <nav>
-                        <img id="mobile-exit" class="mobile-menu-exit" src="resources/images/index/close.svg" alt="Cerrar Menú">
+                        <img style="width: 2em;" id="mobile-exit" class="mobile-menu-exit" src="resources/images/index/close.png" alt="Cerrar Menú">
                         <ul class="primary-nav">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="flores.html">Flores</a></li>
@@ -40,7 +40,9 @@
             </div>
             <section class="echeverialilacina">
                 <div class="container">
-                    <button type="button" class="collapsible"><p>Echeveria lilacina</p></button>
+                    <div class="background">
+                        <button type="button" class="collapsible"><p>Echeveria lilacina</p></button>
+                    </div>
                     <div class="content">
                             <div class="caracteristicas">
                                 <h2>Características</h2>
@@ -94,7 +96,9 @@
 
             <section class="mammillariaspinosissima">
                 <div class="container">
-                    <button type="button" class="collapsible"><p>Mammillaria spinosissima</p></button>
+                    <div class="background">
+                        <button type="button" class="collapsible"><p>Mammillaria spinosissima</p></button>
+                    </div>
                     <div class="content">
                             <div class="caracteristicas">
                                 <h2>Características</h2>
@@ -165,7 +169,7 @@
                 for (i = 0; i < coll.length; i++) {
                     coll[i].addEventListener("click", function() {
                     this.classList.toggle("active");
-                    var content = this.nextElementSibling;
+                    var content = this.parentNode.nextElementSibling;
                     if (content.style.display === "block") {
                         content.style.display = "none";
                     } else {

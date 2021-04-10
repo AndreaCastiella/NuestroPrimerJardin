@@ -4,11 +4,11 @@
     font-family: 'Poppins';
     text-align: center;
     background-color: rgba(60, 109, 44, .3);
-    margin-bottom: -2em;
+    margin-bottom: -1.5em;
 }
 
 .collapsible {
-    width: 8em;
+    width: 7em;
     background-color: #586c58;
     margin-top: 5em;
     padding: .5em;
@@ -153,11 +153,16 @@
     .collapsible {
         height: 3em;
     }
-      .video h2 {
-          text-shadow: 1px 1px 3px rgb(171, 129, 50);
-          background-color: rgba(255, 184, 52, 0.3);
-          color: rgb(171, 129, 50);
-      }
+    .video h2 {
+        text-shadow: 1px 1px 3px rgb(171, 129, 50);
+        background-color: rgba(255, 184, 52, 0.3);
+        color: rgb(171, 129, 50);
+    }
+    .background {
+        margin-top: 3em;
+        background-image: url(/resources/images/flores/clavel-bg.jpg);
+        background-size: cover;    
+    }
   }
 
 .petunia {
@@ -168,6 +173,11 @@
         text-shadow: 1px 1px 3px rgb(171, 70, 50);
         background-color: rgba(255, 110, 52, 0.3);
         color: rgb(171, 70, 50);
+    }
+    .background {
+        margin-top: 3em;
+        background-image: url(/resources/images/flores/petunia-bg.jpg);
+        background-size: cover;    
     }
 }
 
@@ -180,6 +190,11 @@
         background-color: rgba(255, 245, 52, 0.3);
         color: rgb(171, 165, 50);
     }
+    .background {
+        margin-top: 3em;
+        background-image: url(/resources/images/flores/girasoles-bg.jpg);
+        background-size: cover;    
+    }
 }
 
 .lavanda {
@@ -190,5 +205,10 @@
         text-shadow: 1px 1px 3px rgb(111, 50, 171);
         background-color: rgba(194, 52, 255, 0.3);
         color: rgb(111, 50, 171);
+    }
+    .background {
+        margin-top: 3em;
+        background-image: url(/resources/images/flores/lavanda-bg.jpeg);
+        background-size: cover;    
     }
 }
