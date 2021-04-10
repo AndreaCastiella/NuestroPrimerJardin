@@ -41,7 +41,7 @@
 }
 
 .content .caracteristicas ul {
-  list-style-image: url("/resources/images/icono_lista.png");
+  list-style-image: url("../../resources/images/icono_lista.png");
 }
 
 .content .caracteristicas ul li {
@@ -63,7 +63,7 @@
 }
 
 .content .cuidados ul {
-  list-style-image: url("/resources/images/icono_lista.png");
+  list-style-image: url("../../resources/images/icono_lista.png");
 }
 
 .content .cuidados ul li {
@@ -238,7 +238,7 @@
 
 .lavanda .background {
   margin-top: 3em;
-  background-image: url(../../resources/images/flores/lavanda-bg.jpeg);
+  background-image: url(../../resources/images/flores/lavanda-bg.jpg);
   background-size: cover;
 }
 /*# sourceMappingURL=flores.css.map */
