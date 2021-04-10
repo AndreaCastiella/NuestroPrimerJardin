@@ -11,6 +11,12 @@
         background-color: rgba(52, 255, 69, 0.3);
         color: rgb(106, 171, 50);
     }
+    .background {
+        margin-top: 3em;
+        background-image: url(/resources/images/cactus/echeveria-bg.jpg);
+        background-size: cover;   
+
+    }
   }
   
   .mammillariaspinosissima {
@@ -18,5 +24,10 @@
         text-shadow: 1px 1px 3px rgb(106, 171, 50);
         background-color: rgba(52, 255, 69, 0.3);
         color: rgb(106, 171, 50);
+    }
+    .background {
+        margin-top: 3em;
+        background-image: url(/resources/images/cactus/mammillariaspinosissima-bg.jpg);
+        background-size: cover;   
     }
   }
