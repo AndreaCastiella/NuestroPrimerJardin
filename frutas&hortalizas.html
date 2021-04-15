@@ -314,6 +314,64 @@
                     </div>
                 </div>
             </section>  
+            <section class="patata">
+                <div class="container">
+                    <div class="background">
+                        <button type="button" class="collapsible"><p>Patatas</p></button>
+                    </div>
+                    <div class="content">
+                            <div class="caracteristicas">
+                                <h2>Características</h2>
+                                <ul>
+                                    <li>Nombre común :<span> Patata</span></li>
+                                    <li>Nombre científico :<span> Solanum tuberosum</span></li>
+                                    <li>Origen :<span> América</span></li>
+                                    <li>Familia :<span> Solanáceas</span></li>
+                                    <li>Exposición :<span> 12 a 16 horas de luz</span></li>
+                                    <li>Ubicación :<span> Exterior</span></li>
+                                    <li>Cosecha :<span> Principios de primavera-principios otoño</span></li>
+                                    <li>Temperatura :<span> Diferencia máxima menos a 10ºC</span></li>
+                                    <li>Riego :<span> Regularmente</span></li>
+                                    <li>Abono :<span> Mensualmente</span></li>
+                                </ul>
+                            </div>
+                            <div class="cuidados">
+                                <h2>Cuidados</h2>
+                                <ul>
+                                    <li><p class="titulo">Plantación : <p> En zonas con clima suave se pueden hacer varias plantaciones al año. En lugares con clima más extremo, solo durante los meses más
+                                        benignos. La patata requiere temperaturas frescas durante el proceso de formación de tubérculos. Entre 15 y 25ºC. La tuberización comienza entre los 30 y 60 días después
+                                        de la siembra, según la precocidad de la variedad. Es muy sensible a las heladas. 
+                                    </p></p></li>
+                                    <li><p class="titulo">Riego : <p> La patata detiene su crecimiento cuando no dispone de suficiente agua. El agua debe ser de calidad,
+                                        especialmente en lo relativo a salinidad. Regar al amanecer o atardecer en días soleados y calurosos. El riego localizado es el más adecuado. La tierra debe permanecer húmeda.
+                                    </p></p></li>
+                                    <li><p class="titulo">Abono : <p> Para su correcto desarrollo necesita nitrógeno, fósforo, potasio y algunos micronutrientes.</p></p></li>
+                                </ul>
+                                <hr class="solid">
+                            </div>                         
+                            <div class="galeria">
+                            <h2>Galería</h2>
+                            <div>
+                                <div class="mySlidesPatata">
+                                    <div class="numbertext">1 / 2</div>
+                                    <img src="resources/images/frutas_hortalizas/patata.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlidesPatata">
+                                    <div class="numbertext">2 / 2</div>
+                                    <img src="resources/images/frutas_hortalizas/patata_2.jpg" style="width:100%">
+                                </div>
+                                <button class="left" onclick="plusDivsPatata(-1)">&#10094;</button>
+                                <button class="right" onclick="plusDivsPatata(1)">&#10095;</button>
+                            </div>
+                            </div>
+                        <div class="video">
+                            <hr class="dotted">
+                            <h2>Vídeos de interés</h2>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/qnEf-Y4OCNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section> 
             <script>
                 const mobileBtn = document.getElementById('mobile-cta')
                     nav = document.querySelector('nav')
@@ -421,6 +479,23 @@
                 function showDivsFresa(n) {
                 var i;
                 var x = document.getElementsByClassName("mySlidesFresa");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+                }
+            </script>
+            <script>
+                var slideIndex = 1;
+                showDivsPatata(slideIndex);
+                function plusDivsPatata(n) {
+                showDivsPatata(slideIndex += n);
+                }
+                function showDivsPatata(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlidesPatata");
                 if (n > x.length) {slideIndex = 1}
                 if (n < 1) {slideIndex = x.length}
                 for (i = 0; i < x.length; i++) {
